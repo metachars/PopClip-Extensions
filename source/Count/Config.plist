@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+            <key>After</key>
+            <string>paste-result</string>
+			<key>Shell Script File</key>
+			<string>count.sh</string>
+			<key>Stoppable</key>
+			<true/>
+			<key>Title</key>
+			<string>Count</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Speak the selected text aloud, using the system default voice. To change the voice, go to "Speech" in System Preferences.</string>
+	<key>Extension Identifier</key>
+	<string>com.metachars.popclip.extension.count</string>
+	<key>Extension Name</key>
+    <string>Count</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
